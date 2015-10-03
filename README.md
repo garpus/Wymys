@@ -1,5 +1,5 @@
 ## Wymyslowski
 ``
-sh
+sh aa
  cat plik.txt
 ``
