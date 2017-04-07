@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## My Gulp 101
 
 - Konfiguracja środowiska do pracy z HTML5+CSS3+JavaScript.
@@ -77,3 +78,6 @@ rename dist docs # ?
 ### Uruchamiamy stronę na Firebase
 
 TODO
+=======
+
+>>>>>>> 4eab15d3f265fff4d6f88c4efc6a85d0bf6a5c99
