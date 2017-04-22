@@ -1,0 +1,82 @@
+#data {
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+thead th {
+  text-align: left;
+}
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+th,
+td {
+  border: 1px solid #333;
+  line-height: 1.5;
+  padding: 5px;
+  text-align: left;
+}
+@media screen and (width: 375px height: 667px){
+	img {
+		width: 375px;
+		height: auto;
+	}
+}
+/* Stack rows vertically on small screens */
+@media screen and (max-width: 480px) {
+  /* Hide column labels */
+	thead tr {
+		position: absolute;
+		top: -9999em;
+		left: -9999em;
+	}
+	tr {
+    border: 1px solid #333;
+    border-bottom: 0;
+  }
+	/* Leave a space between table rows */
+  tr + tr {
+    margin-top: 1.5em;
+  }
+  /* Get table cells to act like rows */
+  tr,
+  td {
+		display: block;
+	}
+	td {
+		border: none;
+		border-bottom: 1px solid #333;
+	/* Leave a space for data labels */
+		padding-left: 50%;
+	}
+	/* Add data labels */
+  td:before {
+    content: attr(data-label);
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: -100%;
+    width: 100%;
+  }
+  #data {
+    text-align: left;
+	}
+}
+/* Stack labels vertically on smaller screens */
+@media (max-width: 320px) {
+  #data {
+	text-align: left;
+	}
+  td {
+    padding-left: 0.75em;
+  }
+  td:before {
+    display: block;
+    margin-bottom: 0.75em;
+    margin-left: 0;
+  }
+}

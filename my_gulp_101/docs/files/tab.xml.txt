@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+   <book>
+      <name>Adam</name>
+      <surname>Adamski</surname>
+      <title>Projektant</title>
+      <price>4000</price>
+      <date>1978-12-04</date>
+      <description>Talent projektancki</description>
+   </book>
+   <book>
+      <name>Ewa</name>
+      <surname>Ewska</surname>
+      <title>Computer master</title>
+      <price>6000</price>
+      <date>1996-01-01</date>
+      <description>Mistrzyni w swoim fachu.</description>
+   </book>
+ <book>
+      <name>Zenon</name>
+      <surname>Zenski</surname>
+      <title>Sprzatacz</title>
+      <price>2000</price>
+      <date>1960-10-01</date>
+      <description>Kto jak on da temu rade</description>
+   </book>
+ <book>
+      <name>Dawid</name>
+      <surname>Dawski</surname>
+      <title>Giermek</title>
+      <price>30</price>
+      <date>1345-04-12</date>
+      <description>Wierny do smierci</description>
+   </book>
+ <book>
+      <name>ALbrecht</name>
+      <surname>Lichtenstein</surname>
+      <title>Rycerz</title>
+      <price>70000</price>
+      <date>1330-03-16</date>
+      <description>Potrafi przywaliæ</description>
+   </book>
+ <book>
+      <name>Bonifacy</name>
+      <surname>Kleks</surname>
+      <title>Postaæ fikcyjna</title>
+      <price>0/price>
+      <date>5640-04-17</date>
+      <description>Kto by pomyslal , a jednak.</description>
+   </book>
+  
+</catalog>

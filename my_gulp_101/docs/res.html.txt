@@ -1,0 +1,21 @@
+<html>
+ <head>  
+   <link rel="Stylesheet" type="text/css" href="./css/respo.css" />
+ <title></title>
+   <script type="text/javascript" src="./javascript/respo.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ </head>
+ <body>
+   <button type="button" onclick="loadDoc()">Za³aduj Tabele</button>
+   <br><br>
+   <div id="bodytable">
+   <table id="tab"></table>
+ </div>
+  <picture>
+  <source media="(min-width: 1025px)" srcset="files/kaczkamed.jpg">
+   <source media="(max-width: 480px)" srcset="files/kaczkasmal.jpg">
+   <source media="(max-width: 1024px)" srcset="files/kaczkalarge.jpg">
+  <img src="files/kaczkamed.jpg" alt="Kaczka">
+ </picture>
+ </body>
+</html>
