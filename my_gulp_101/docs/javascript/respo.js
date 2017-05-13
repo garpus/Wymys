@@ -33,3 +33,4 @@ for (i = 0; i <x.length; i++) {
   table +="<tfoot><tr><td colspan='6'>Dane Wypisane</td></tr></tfoot>";
 document.getElementById("tab").innerHTML = table;
 }
+
