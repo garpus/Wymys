@@ -12,7 +12,7 @@ function myFunction(xml) {
 var i;
 var xmlDoc = xml.responseXML;
 var table="<caption>Tabela</caption>";
-var table="<thead><tr><th>Imie</th><th>Nazwisko</th><th>Tytul</th><th>Cena</th><th id='data'>Data</th><th>Opis</th></tr></thead>
+var table="<thead><tr><th>Imie</th><th>Nazwisko</th><th>Tytul</th><th>Cena</th><th id='data'>Data</th><th>Opis</th></tr></thead><tbody>";
 var x = xmlDoc.getElementsByTagName("book");
 for (i = 0; i <x.length; i++) {
   table += "<tr><td data-label='Imie'>" +
