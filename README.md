@@ -6,6 +6,7 @@ co może nie działać
 
 
 Parser osobny 
+
 parser = new DOMParser();
 
 xmlDoc = parser.parseFromString(text,"text/xml");
