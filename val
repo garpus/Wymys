@@ -1,0 +1,24 @@
+Vslidator XML z użyciem Ruby bibliotek
+
+require 'libxml'
+include LibXML
+
+schema_filename = ARGV.pop
+doc = XML::Document.file ARGV.pop
+
+result = if schema_filename.end_with? "dtd"
+
+  schema = XML::Dtd.new File.read(schema_filename)
+  doc.validate schema
+
+else
+
+  schema = LibXML::XML::Schema.new(schema_filename)
+  result = doc.validate_schema(schema) do |message,flag|
+    log.debug(message)
+    puts message
+  end
+
+end
+
+puts "No errors, yay!" if result
